@@ -1,15 +1,14 @@
 import React from 'react';
-import { StrictMode } from 'react';
+// import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { Box } from '@mui/material';
+import SettingProvider from './context/setting-context';
+import Layout from './components/layout';
 
 const rootElement = document.getElementById('root') as HTMLElement;
 const root = createRoot(rootElement);
 
 root.render(
-  <StrictMode>
-    <Box>
-      <h1>React</h1>
-    </Box>
-  </StrictMode>,
+  <SettingProvider>
+    <Layout></Layout>
+  </SettingProvider>,
 );
