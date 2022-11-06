@@ -1,0 +1,22 @@
+{
+  "name": "imgix-react",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "description": "imgix is ​​an image processing service and CDN that has an easy-to-use API via querystring",
+  "repository": "https://github.com/maxieric/imgix-react.git",
+  "author": "Maximiliano Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "parcel -p 3000"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  }
+}
