@@ -1,0 +1,21 @@
+.side-bar{
+    display: flex;
+    width: 18rem;
+    height: calc(100vh);
+    background-color: #fafafafa; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.side-bar ul{
+    list-style: none;
+    padding-Left:  2rem;
+    padding-right: 2rem;
+}
+.side-bar ul li{
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+.side-bar ul li a{
+    margin-bottom: 1rem;
+    text-decoration: none;
+}

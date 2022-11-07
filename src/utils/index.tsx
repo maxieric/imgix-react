@@ -24,3 +24,12 @@ export const generateImagesSetting = (images: IImage[]): IImagesSetting => {
   });
   return imgSetting;
 };
+
+export const getsettingFormatImgix = (obj: ISettingImgix | undefined): string => {
+  if (!obj) {
+    return '';
+  }
+  return Object.keys(obj)
+    .map((k: any) => `${k}=${obj[k as keyof ISettingImgix]}`)
+    .join('&');
+};

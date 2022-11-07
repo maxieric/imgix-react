@@ -1,0 +1,7 @@
+.setting-image {
+    padding: 1rem 2rem;
+    width: 20rem;
+    background-color: #f7f7f7;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

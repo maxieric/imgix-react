@@ -1,17 +1,17 @@
 import { Box } from '@mui/material';
 import React from 'react';
-import Header from './header';
+import SideBar from './side-bar';
 
 interface LayoutI {
   children?: React.ReactNode;
 }
 
 const Layout: React.FC<LayoutI> = ({ children }) => (
-  <>
-    <Header titleHeader="example title" />
-    <Box className="flex">
-      <Box className="flex content">{children}</Box>
+  <Box display="flex">
+    <SideBar />
+    <Box display="flex" className="content">
+      {children}
     </Box>
-  </>
+  </Box>
 );
 export default Layout;

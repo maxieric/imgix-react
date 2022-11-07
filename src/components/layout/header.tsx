@@ -10,9 +10,10 @@ const Header: React.FC<HeaderI> = ({ titleHeader = '' }) => (
     display="flex"
     alignContent="center"
     justifyContent="center"
-    sx={{ height: '3.5rem', backgroundColor: '#b0f2c2' }}
+    alignItems="center"
+    sx={{ height: '3.5rem', backgroundColor: 'rgb(223, 235, 232)' }}
   >
-    <Typography variant="h3">{titleHeader}</Typography>
+    <Typography variant="h6">{titleHeader}</Typography>
   </Box>
 );
 export default Header;
