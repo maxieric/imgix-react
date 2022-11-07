@@ -4,15 +4,11 @@
 
 It is an application that allows you to use imgix image processing and CDN with an easy to use API. It allows you to make use of some of the tools it provides such as rotation and adjustments. It also allows you to save the history of an image up to 5 images.
 
-## Project Status
-
-(only necessary if incomplete)
-
 ## Project Screen Shot(s)
 
 #### Screen app:
 
-![Alt text](http://full/path/to/screen.png 'screen App')
+![Alt text](https://github.com/maxieric/imgix-react/blob/master/screen.png 'screen App')
 
 ## Installation and Setup Instructions
 
